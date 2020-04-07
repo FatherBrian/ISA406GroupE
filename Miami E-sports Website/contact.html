@@ -53,17 +53,21 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About Us</a></li>
           <li class="drop-down"><a href="">Teams</a>
-            <ul>
-              <li><a href="overwatch.html">Overwatch</a></li>
-              <li><a href="teams.html">League of Legends</a></li>
-            </ul>
-          </li>
-          <li class="active"><a href="contact.html">Contact Us</a></li>
+          <ul>
+			<li><a href="csgo.html">CSGO</a></li>
+			<li><a href="hearthstone.html">Hearthstone</a></li>
+            <li><a href="league.html">League of Legends</a></li>
+            <li><a href="overwatch.html">Overwatch</a></li>
+			<li><a href="rocketleague.html">Rocket League</a></li>
+          </ul></li>
+		  <li class="active"><a href="contact.html">Contact Us</a></li></li>
         </ul>
       </nav><!-- .nav-menu -->
 
     </div>
   </header><!-- End Header -->
+
+
 
   <main id="main">
 
@@ -81,6 +85,89 @@
 
       </div>
     </section><!-- End Contact Section -->
+	
+	<section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
+		<div class="col-m-6" align="center">
+		<form style="display: inline-block;" id ="test-form" action = "https://docs.google.com/forms/u/1/d/e/1FAIpQLScmy_f8P00N80cw2ImlSrTmsMwlSPpZ6iZAJ5YiX70zM_klPw/formResponse"
+		target="_self" method="POST" class="main-form needs-validation" novalidate>
+			<div class="row">
+				<div class="col">
+					<div class="form-group">
+						<label for="fname">First name:</label><br>
+						<input type="text" id="fname" name="entry.1806478498" placeholder="First name" class="form-control" required>
+						<div class="invalid-feedback">This field is required</div>
+					</div>
+				</div>
+ 
+			<div class="col">
+				<div class="form-group">
+						<label for="lname">Last name:</label><br>
+						<input type="text" id="lname" name="entry.1603232607" placeholder="Last name" class="form-control" required>
+						<div class="invalid-feedback">This field is required</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<div class="form-group">
+						<label for="pnumber"> Phone number:</label><br>
+						<input type="tel" id="pnumber" name="entry.988415417" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone number" class="form-control" required >
+						<small id="pnumberHelp" class="form-text text-muted">Please use the form: 555-123-1234</small>
+						<div class="invalid-feedback">This field must be a 10 digit phone number that includes '-'.</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="form-group">
+						<label for="email">Email Address:</label><br>
+						<input type="text" id="email" name="entry.2031170636" placeholder="Enter email" class="form-control" required>
+						<div class="invalid-feedback">This field is required</div>
+					</div>
+				</div>
+			</div>
+ 
+			<div>
+				<label for="games">Games you are interested in:</label><br>
+				<textarea rows="5" cols="50" id="games" name="entry.1875857954" placeholder="List the games here" class="form-control" required></textarea>
+				<div class="invalid-feedback">This field is required</div>
+			</div>
+ 
+			<div class="row">
+				<div class="col">
+					<div class="form-group">
+						<label for="act">ACT Score:</label><br>
+						<input type="number" id="act" name="entry.1773384798" placeholder="ACT Score" class="form-control" min="0" max="36">
+						<div class="invalid-feedback">Make sure your score is inbetween 0 and 36</div>
+					</div>
+				</div>
+
+				<div class= "col">
+					<div class="form-group">
+						<label for="sat">SAT Score:</label><br>
+						<input type="number" id="sat" name="entry.1683712827" placeholder="SAT score" class="form-control" min="0" max="1600">
+						<div class="invalid-feedback">Make sure your score is inbetween 0 and 1600</div>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="form-group">
+						<label for="cpa">GPA:</label><br>
+						<input type="text" id="gpa" name="entry.1295942063" placeholder="GPA" class="form-control" required>
+						<div class="invalid-feedback">This field is required</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-2">
+					<button type="submit"id="submit-form" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+ 
+			</form>
+		</div>
+	</section>
 
     <!-- ======= Contact Section ======= -->
     <section class="contact" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
@@ -95,7 +182,7 @@
                 <div class="info-box">
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>550 E Spring St, Oxford, OH 45056</p>
                 </div>
               </div>
               <div class="col-md-6">
@@ -153,8 +240,9 @@
     <!-- ======= Map Section ======= -->
     <section class="map mt-2">
       <div class="container-fluid p-0">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.2219901290355!2d-74.00369368400567!3d40.71312937933185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a23e28c1191%3A0x49f75d3281df052a!2s150%20Park%20Row%2C%20New%20York%2C%20NY%2010007%2C%20USA!5e0!3m2!1sen!2sbg!4v1579767901424!5m2!1sen!2sbg" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-      </div>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.175285870645!2d-84.73306548467211!3d39.51053337948077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x884022c4d025ec71%3A0xfce7a4ae2c12bf0f!2sMiami%20University!5e0!3m2!1sen!2sus!4v1585857019240!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+	   </iframe>
+	  </div>
     </section><!-- End Map Section -->
 
   </main><!-- End #main -->
@@ -246,6 +334,23 @@
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+<script>
+	var form = document.querySelector('.needs-validation');
+
+		form.addEventListener('submit', function(event) {
+			if (form.checkValidity() === false) {
+			event.preventDefault();
+			event.stopPropagation();
+			}
+	form.classList.add('was-validated');
+})
+</script>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
