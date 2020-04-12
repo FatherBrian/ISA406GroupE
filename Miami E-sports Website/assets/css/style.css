@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #68A4C4;
-  color: #fff;
+  background: #fff;
+  color: #800000;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -51,8 +51,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .back-to-top:hover {
-  color: #fff;
-  background: #85b6cf;
+  color: #800000;
+  background: #fff;
   transition: background 0.2s ease-in-out;
 }
 
@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #1e4356;
+  background: #800000;
 }
 
 #header.header-transparent {
@@ -73,7 +73,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header.header-scrolled {
-  background: rgba(30, 67, 86, 0.8);
+  background: #800000;
   height: 60px;
   padding: 10px 0;
 }
@@ -85,7 +85,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 1;
   font-weight: 400;
   letter-spacing: 3px;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -122,7 +122,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #ddecf5;
+  color: #fff;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -130,7 +130,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #a2cce3;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #68A4C4;
+  color: #00000;
 }
 
 .nav-menu .drop-down > a:after {
@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 95%;
-  background: linear-gradient(to right, rgba(30, 67, 86, 0.8), rgba(30, 67, 86, 0.6)), url("../img/hero-bg.jpg") center top no-repeat;
+  background: #800000;
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
+  background: #800000;
   opacity: 0.3;
   z-index: 0;
   border-radius: 0 0 50% 50%;
@@ -466,7 +466,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f3f8fa;
+  background-color: #800000;
 }
 
 .section-title {
@@ -488,7 +488,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #800000;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -499,7 +499,7 @@ section {
   display: block;
   width: 40px;
   height: 3px;
-  background: #68A4C4;
+  background: #800000;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -513,7 +513,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #f3f8fa;
+  background-color: #800000;
   min-height: 40px;
 }
 
@@ -894,6 +894,7 @@ section {
 --------------------------------------------------------------*/
 .skills {
   padding: 60px 0;
+  background: #800000;
 }
 
 .skills .progress {
@@ -2025,7 +2026,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #800000;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2033,7 +2034,7 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #0d2735;
+  background: #800000;
 }
 
 #footer .footer-newsletter h4 {
@@ -2069,20 +2070,20 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: #68A4C4;
+  background: #800000;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #468db3;
+  background: #800000;
 }
 
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: #800000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
   padding: 60px 0 30px 0;
 }
 
