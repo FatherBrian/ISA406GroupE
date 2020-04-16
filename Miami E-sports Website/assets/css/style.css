@@ -1307,6 +1307,10 @@ section {
   padding-bottom: 30px;
 }
 
+.team .container .row {
+	justify-content: center;
+}
+
 .team .col-lg-4 {
 	padding: 30px;
 	animation: mymove 5s infinite;
