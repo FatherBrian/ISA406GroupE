@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 0;
 }
 
-#header .logo h1 {
+#header .logo span {
   font-size: 28px;
   margin: 0;
   padding: 4px 0;
@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: none;
+  color: #C60C30;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -132,6 +133,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #C60C30;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .nav-menu .drop-down ul {
@@ -169,6 +171,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
   color: #C60C30;
+  font-weight: bold;
 }
 
 .nav-menu .drop-down > a:after {
@@ -330,7 +333,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 130%;
   height: 95%;
   background: #C60C30;
-  z-index: 0;
+  opacity: .3;
+  z-index: 1;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) rotate(0deg);
 }
@@ -343,8 +347,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   width: 130%;
   height: 96%;
   background: #C60C30;
-  opacity: 0.3;
-  z-index: 0;
+  opacity: .1;
+  z-index: 1;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) translateY(18px) rotate(2deg);
 }
@@ -356,9 +360,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   flex-direction: column;
   text-align: center;
   bottom: 0;
-  padding-top: 0;
+  padding-top: 100px;
   left: 0;
   right: 0;
+  z-index: -1;
 }
 
 #hero video {
