@@ -532,7 +532,8 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #3D3D3D;
+  background: rgb(55,55,55);
+  background: radial-gradient(circle, rgba(55,55,55,1) 24%, rgba(61,61,61,1) 88%, rgba(72,72,72,1) 99%);
   min-height: 40px;
 }
 
